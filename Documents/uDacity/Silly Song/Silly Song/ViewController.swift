@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
         if nameField.text != "" {
             //print("bad santa")
-            lyricsView.text = lyricsForName(bananaFanaTemplate, fullName: shortNameFromName(nameField.text!))
+            lyricsView.text = lyricsForName(bananaFanaTemplate, fullName: (nameField.text!))
 
         }
 
